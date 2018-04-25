@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.${layoutName}.*
 </#if>
 
-class ${activityClass} : ${superClass}() {
+class ${activityClass} : ${superClass}(), ${iActivityViewClass} {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
